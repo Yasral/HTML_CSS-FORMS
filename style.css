@@ -129,3 +129,25 @@ body{
 form input[type="radio"]{
    display: none;
 }
+
+/* Styling the registration button */
+
+.button{
+    background-color: pink;
+    height: 45px;
+    margin: 30px 0;
+}
+
+.button input:hover{
+    cursor: pointer;
+}
+
+.button input{
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: linear-gradient(132deg, rgba(230,213,184,1) 85%, rgba(240,165,0,1) 100%);
+    border: none;
+}
