@@ -44,3 +44,8 @@ body{
 .user-details, .category{
     justify-content: space-between;
 }
+
+/* Styling the common fields */
+.container, .input-box input, .button input{
+    border-radius: 5px;
+}
