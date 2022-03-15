@@ -49,3 +49,18 @@ body{
 .container, .input-box input, .button input{
     border-radius: 5px;
 }
+
+/* Styling the title */
+.title{
+    position: relative;
+}
+
+.title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 35px;
+    background-color: #E6D5B8;
+}
