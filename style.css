@@ -14,3 +14,33 @@ body{
     padding: 15px;
     height: 100vh;
 }
+
+/* Styling the reusable parts */
+.container{
+    max-width: 800px;
+    width: 100%;
+    background-color: #F0A500;
+    padding: 30px;
+}
+
+/* Using the flex */
+body, .user-details, .category, .category label{
+    display: flex;
+}
+
+body, .category label{
+    align-items: center;
+}
+
+body{
+    justify-content: center;
+}
+
+.user-details{
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.user-details, .category{
+    justify-content: space-between;
+}
