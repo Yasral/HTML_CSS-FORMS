@@ -94,3 +94,38 @@ body{
 .input-box input:hover, .input-box input:focus, .input-box:valid{
     border-color: #1B1A17;
 }
+
+/* Styling the second part of input fields */
+.gender-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.category{
+    width: 80%;
+    padding-top: 15px;
+}
+
+.category label{
+    cursor: pointer;
+}
+
+.dot{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #fff;
+    margin-right: 10px;
+    border: 1px solid transparent;
+}
+
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .three{
+   background: #E45826;
+   border-color: #d9d9d9;
+}
+
+form input[type="radio"]{
+   display: none;
+}
