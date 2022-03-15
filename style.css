@@ -151,3 +151,34 @@ form input[type="radio"]{
     background: linear-gradient(132deg, rgba(230,213,184,1) 85%, rgba(240,165,0,1) 100%);
     border: none;
 }
+
+/* Handling the responsivity */
+@media screen and (max-width: 584px) {
+    .container{
+        max-width: 100%;
+    }
+
+    .input-box{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .category{
+        width: 100%;
+    }
+
+    .user-details{
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+
+    .user-details::-webkit-scrollbar{
+        width: 5px;
+    }
+}
+
+@media(max-width: 459px){
+    .category{
+        flex-direction: column;
+    }
+}
